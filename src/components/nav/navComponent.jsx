@@ -1,9 +1,16 @@
 import '../../index.css';
+import './navComponent.css';
 const Nav = () => {
   return (
-    <div>
-      <div className='text-5xl'>Home</div>
-      <div className='text-5xl'>About</div>
+    <div className='Navbar'>
+      
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>FAQs</li>
+        <li>Charts</li>
+      </ul>
+      
     </div>
   );
 }
