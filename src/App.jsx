@@ -8,6 +8,8 @@ import Question1 from './pages/appPages/Question1'
 import Question2 from './pages/appPages/Question2'
 import Question3 from './pages/appPages/Question3'
 import Question4 from './pages/appPages/Question4'
+import Question5 from './pages/appPages/question5';
+import Results from './pages/appPages/Results';
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
         <Route path="/Question2" element={<Question2 />} />
         <Route path="/Question3" element={<Question3 />} />
         <Route path="/Question4" element={<Question4 />} />
-      
+        <Route path="/Question5" element={<Question5 />} />
+        <Route path="/Results" element={<Results />} />
+
       </Routes>
     </BrowserRouter>
   );
