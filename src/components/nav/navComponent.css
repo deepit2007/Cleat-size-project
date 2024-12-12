@@ -5,6 +5,7 @@
     justify-content: space-between;
     color: rgb(255, 255, 255);
     background: #8d8d8d;
+    padding: 10px 20px;
 }
 ul{
     flex: 1;

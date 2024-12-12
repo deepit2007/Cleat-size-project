@@ -1,0 +1,32 @@
+.question-container {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .question-content {
+    text-align: center;
+  }
+  
+  .question-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .options-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .option-label {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .option-input {
+    margin-right: 10px;
+  }

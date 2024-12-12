@@ -4,10 +4,10 @@ import Question from '../../components/nav/Question'
 
 const Question3 = () => {
   return (
-    <div>
+    <div className='home-container'>
         <Qbar />
-        Question 3
         <Question questionId={3}/>
+        <center>Certain models or cleat brands cater to those with wider feet width than others. It is important to take this into account when choosing a pair of cleats.</center>
     </div>
   )
 }

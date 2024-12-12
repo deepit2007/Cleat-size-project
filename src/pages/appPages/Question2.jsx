@@ -4,10 +4,10 @@ import Question from '../../components/nav/Question'
 
 const Question2 = () => {
   return (
-    <div>   
+    <div className='home-container'>   
         <Qbar />
-        Question 2
         <Question questionId={2}/>
+        <center>Those who are not yet fully developed should choose size wisely, as to leave room to account for foot growth in the future.</center>
     </div>
   )
 }
