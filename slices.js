@@ -10,10 +10,17 @@ const initialState = {
   ],
   recommendation: '',
   cleats: [
-    { name: 'Premium Cleats', tags: ['Over $80', 'Wide', 'Attacker'] },
-    { name: 'Wide Fit Cleats', tags: ['Wide', 'Defender'] },
-    { name: 'Standard Cleats', tags: ['Male', 'Female', '15 and Under', '16 and Above', 'Narrow', 'Midfielder', '$80 and Under'] },
-    { name: 'Unknown', tags: [''] },
+    { name: 'Nike Phantom GX Elite', tags: ['Over $80', 'Wide', 'Attacker'] },
+    { name: 'Adidas Copa Sense .2', tags: ['Wide', 'Defender', '$80-$120'] },
+    { name: 'Nike Tiempo Legend 9 Elite', tags: ['Normal', 'Defender', 'Over $120'] },
+    { name: 'Adidas Predator Accuracy .1', tags: ['Narrow', 'Midfielder', 'Over $120'] },
+    { name: 'Nike Mercurial Vapor 14 Elite', tags: ['Over $120', 'Attacker', 'Narrow'] },
+    { name: 'Puma Future Z 1.1', tags: ['Midfielder', 'Over $120', 'Normal'] },
+    { name: 'Puma Ultra 1.3', tags: ['Under $80', 'Defender', 'Normal'] },
+    { name: 'Adidas X Ghosted .1', tags: ['Under $80', 'Attacker', 'Wide'] },
+    { name: 'Nike Phantom GT Elite', tags: ['Midfielder', 'Over $120', 'Normal'] },
+    { name: 'Adidas Nemeziz .1', tags: ['Under $80', 'Midfielder', 'Narrow'] },
+      
   ] 
 };
 

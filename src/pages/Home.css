@@ -1,4 +1,4 @@
-/* Container for the entire home page */
+
 .home-container {
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     background-color: #f0f0f0;
   }
   
-  /* Header section */
+
   .home-header {
     text-align: center;
     margin-bottom: 20px;
@@ -25,7 +25,7 @@
     color: #666;
   }
   
-  /* Main content section */
+ 
   .home-main {
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@
     background-color: #0056b3;
   }
   
-  /* Footer section */
+  
   .home-footer {
     text-align: center;
     margin-top: 20px;
